@@ -153,6 +153,24 @@ body {
 
   color: #212121;
 }
+.undertext {
+  position: absolute;
+  width: 270px;
+  height: 70.54px;
+  left: 215px;
+  top: 798.46px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .butt {
   position: absolute;
   width: 200px;

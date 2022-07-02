@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+
+  background: #ffffff;
+}
 .headblok {
   position: absolute;
   width: 1600px;

@@ -48,5 +48,5 @@
 .list {
 }
 .button-portfolio {
-  display: inline;
+  display: inline-flex;
 }

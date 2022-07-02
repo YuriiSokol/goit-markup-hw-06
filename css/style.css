@@ -145,6 +145,8 @@ body {
 }
 
 .liststudio {
+  margin-left: 215px;
+  margin-top: 774px;
   display: flex;
   justify-content: center;
 }

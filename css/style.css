@@ -143,39 +143,10 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.text {
-  position: absolute;
-  width: 270px;
-  height: 15.05px;
-  left: 215px;
-  top: 774px;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.undertext {
-  position: absolute;
-  width: 270px;
-  height: 70.54px;
-  left: 215px;
-  top: 798.46px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+.liststudio {
+  display: flex;
+  justify-content: center;
 }
 .butt {
   position: absolute;

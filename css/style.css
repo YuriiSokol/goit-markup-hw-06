@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .headblok {
   position: absolute;
   width: 1600px;

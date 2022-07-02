@@ -1,9 +1,7 @@
-.hadbl {
+.headblok {
   position: absolute;
   width: 1600px;
   height: 80px;
-  left: 0px;
-  top: 0px;
   display: inline-flex;
   background: #ffffff;
 }

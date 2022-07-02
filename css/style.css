@@ -4,7 +4,7 @@
   height: 80px;
   left: 0px;
   top: 0px;
-
+  display: inline-flex;
   background: #ffffff;
 }
 .backgr {

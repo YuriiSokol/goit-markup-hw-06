@@ -193,4 +193,5 @@ body {
 .button-portfolio {
   position: absolute;
   display: flex;
+  order: 2;
 }

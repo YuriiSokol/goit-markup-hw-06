@@ -193,8 +193,12 @@ body {
 .button-portfolio {
   position: absolute;
   display: flex;
-  order: 2;
+
   justify-content: center;
   padding-left: 495px;
   margin-top: 174px;
+}
+.foto-portfolio {
+  display: flex;
+  justify-content: center;
 }

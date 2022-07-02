@@ -9,6 +9,13 @@ body {
 
   background: #ffffff;
 }
+.body-porfolio {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+
+  background: #ffffff;
+}
 .headblok {
   position: absolute;
   width: 1600px;

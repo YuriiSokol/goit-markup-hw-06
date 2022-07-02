@@ -50,3 +50,6 @@
 .button-portfolio {
   display: inline-block;
 }
+.photo {
+  display: flexbox;
+}

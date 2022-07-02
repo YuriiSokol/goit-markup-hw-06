@@ -194,4 +194,5 @@ body {
   position: absolute;
   display: flex;
   order: 2;
+  justify-content: center;
 }

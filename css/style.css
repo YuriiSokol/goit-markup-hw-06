@@ -190,3 +190,6 @@ body {
 
   background: #2f303a;
 }
+.button-portfolio {
+  display: flex;
+}

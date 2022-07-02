@@ -54,6 +54,22 @@
 
   color: #212121;
 }
+.contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
 .backgr {
   position: absolute;
   width: 1600px;

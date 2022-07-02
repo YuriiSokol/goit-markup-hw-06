@@ -136,6 +136,23 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+.text {
+  position: absolute;
+  width: 270px;
+  height: 15.05px;
+  left: 215px;
+  top: 774px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
 .butt {
   position: absolute;
   width: 200px;

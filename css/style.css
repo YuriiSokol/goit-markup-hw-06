@@ -195,4 +195,5 @@ body {
   display: flex;
   order: 2;
   justify-content: center;
+  padding-left: 50px;
 }

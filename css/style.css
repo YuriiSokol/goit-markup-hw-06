@@ -199,6 +199,7 @@ body {
   margin-top: 174px;
 }
 .foto-portfolio {
+  position: absolute;
   display: flex;
   justify-content: center;
 }

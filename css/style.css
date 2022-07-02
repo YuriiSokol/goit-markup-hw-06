@@ -185,3 +185,20 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.texth2 {
+  position: absolute;
+  width: 198px;
+  height: 42px;
+  left: 701px;
+  top: 969px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}

@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto 400", "Relaway", "Roboto";
   position: relative;
   width: 1600px;
   height: 2349px;
@@ -14,7 +14,7 @@ body {
   position: relative;
   width: 1600px;
   height: 1880px;
-  font-family: "Roboto";
+  font-family: "Roboto 400", "Relaway", "Roboto";
   background: #ffffff;
 }
 .headblok {

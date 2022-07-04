@@ -94,4 +94,6 @@ button {
   left: 215px;
   top: 774px;
   border-radius: nullpx;
+  position: absolute;
   }
+.textlist ul{display: flex;}

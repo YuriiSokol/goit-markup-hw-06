@@ -45,13 +45,14 @@ body {
   left: 0px;
   top: 80px;
 }
-.textpos {
+.frontface a {
   height: 120px;
   width: 696px;
   left: 452px;
   top: 280px;
   border-radius: nullpx;
-
+}
+.textpos {
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;

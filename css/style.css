@@ -29,3 +29,10 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.headblok {
+  height: 80px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}

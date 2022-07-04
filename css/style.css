@@ -46,11 +46,14 @@ body {
   top: 80px;
 }
 .frontface a {
+  position: fixed;
   height: 120px;
   width: 696px;
   left: 452px;
   top: 280px;
   border-radius: nullpx;
+  color: #ffffff;
+  text-decoration: none;
 }
 .textpos {
   font-family: Roboto;

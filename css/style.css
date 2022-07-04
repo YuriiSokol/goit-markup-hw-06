@@ -8,6 +8,7 @@ body {
   width: 1600px;
   height: 2349px;
 
+  color: rgba(33, 33, 33, 1);
   background: #ffffff;
 }
 .body-porfolio {
@@ -16,6 +17,7 @@ body {
   height: 1880px;
   font-family: "Roboto 400", "Relaway", "Roboto";
   background: #ffffff;
+  color: rgba(33, 33, 33, 1);
 }
 .headblok {
   position: absolute;

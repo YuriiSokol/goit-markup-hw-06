@@ -57,7 +57,7 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
-.textpos {
+.textpos {position: absolute;
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
@@ -65,7 +65,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
 }
-button {
+button {position: absolute;
   top: 400px;
   left: 700px;
   background: #2196f3;

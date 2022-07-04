@@ -173,7 +173,7 @@ body {
 
   background: #2f303a;
 }
-.button-portfolio {
+.button-portfolio.button {
   position: absolute;
   display: flex;
   cursor: pointer;

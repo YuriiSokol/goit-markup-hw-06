@@ -46,6 +46,12 @@ body {
   top: 80px;
 }
 .textpos {
+  height: 120px;
+  width: 696px;
+  left: 452px;
+  top: 280px;
+  border-radius: nullpx;
+
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;

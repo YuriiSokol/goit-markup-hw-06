@@ -45,3 +45,11 @@ body {
   left: 0px;
   top: 80px;
 }
+.textpos {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}

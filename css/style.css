@@ -36,3 +36,12 @@ body {
   top: 0px;
   border-radius: 0px;
 }
+.frontface {
+  width: 1600px;
+  height: 600px;
+  border-radius: 0px;
+  background: #2f303a;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}

@@ -97,12 +97,19 @@ button {position: absolute;
   position: absolute;
   }
 .textlist ul{display: flex;}
-.textlist-pos{
-  font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: left;
-
-}
+.article{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;}
+ .whatwedo{height: 386px;
+  width: 1170px;
+  left: 215px;
+  top: 969px;
+  border-radius: 0px;
+  position: absolute;
+  } 

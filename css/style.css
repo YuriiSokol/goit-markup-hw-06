@@ -176,7 +176,7 @@ body {
 .button-portfolio {
   position: absolute;
   display: flex;
-
+  cursor: pointer;
   justify-content: center;
   padding-left: 495px;
   margin-top: 174px;

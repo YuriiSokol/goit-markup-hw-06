@@ -173,13 +173,16 @@ body {
 
   background: #2f303a;
 }
-.button-portfolio.button {
+.button-portfolio {
   position: absolute;
   display: flex;
-  cursor: pointer;
+
   justify-content: center;
   padding-left: 495px;
   margin-top: 174px;
+}
+.button-portfolio.button {
+  cursor: pointer;
 }
 .foto-portfolio {
   margin-top: 262px;

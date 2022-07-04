@@ -66,6 +66,9 @@ body {
   text-align: center;
 }
 button {
+  top: 400px;
+  left: 700px;
+
   width: 200px;
   height: 60px;
 }

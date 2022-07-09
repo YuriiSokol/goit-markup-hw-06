@@ -37,6 +37,10 @@ body {
 .frontface {
   background-color: #2f303a;
 }
+h1 {
+  text-decoration: none;
+  color: #ffffff;
+}
 .button {
   font-weight: 700;
   font-size: 16px;

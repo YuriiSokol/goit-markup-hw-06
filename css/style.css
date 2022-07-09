@@ -1,120 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-   font-family: "Roboto 400", "Relaway", "Roboto"; */
-  position: relative;
-  width: 1600px;
-  height: 2349px;
-
-  color: rgba(33, 33, 33, 1);
-  background: #ffffff;
-} */
-.body-porfolio {
-  position: relative;
-  width: 1600px;
-  height: 1880px;
-  font-family: "Roboto 400", "Relaway", "Roboto";
-  background: #ffffff;
-  color: rgba(33, 33, 33, 1);
-}
-.Web {
-  color: rgba(33, 150, 243, 1);
-}
-.lista {
-  font-style: normal;
+.lista a {
   font-weight: 500;
+  color: #212121;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.headblok {
-  height: 80px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  display: flex;
-}
-.frontface {
-  width: 1600px;
-  height: 600px;
-  border-radius: 0px;
-  background: #2f303a;
-  position: absolute;
-  left: 0px;
-  top: 80px;
-}
-.frontface a {
-  text-align: center;
-
-  height: 120px;
-  width: 696px;
-  left: 452px;
-  top: 280px;
-  border-radius: 0px;
-  color: #ffffff;
   text-decoration: none;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  list-style: none;
 }
-.textpos {position: absolute;
-  font-family: Roboto;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-}
-button {position: absolute;
-  top: 400px;
-  left: 700px;
-  background: #2196f3;
-  width: 200px;
-  height: 60px;
-}
-.frontface p {
-  width: 160px;
-  height: 30px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
+.lista {
+  list-style: none;
 }
-.textlist{height: 95px;
-  width: 1170px;
-  left: 215px;
-  top: 774px;
-  border-radius: nullpx;
-  position: absolute;
-  }
-.textlist ul{display: flex;}
-.article{font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  
-  color: #212121;}
- .whatwedo{height: 386px;
-  width: 1170px;
-  left: 215px;
-  top: 969px;
-  border-radius: 0px;
-  position: absolute;
-  } 
-.listah2{display: flex;}
-.ourpeople{
-  margin-top:1449px;
+.lista-link:hover {
+  color: #2196f3;
 }
-/* What we do i OurPeople стилі і відступи */
+.lista-link:focus {
+  color: #2196f3;
+}

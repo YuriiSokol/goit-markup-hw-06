@@ -34,6 +34,9 @@ body {
 .studio {
   color: black;
 }
+.frontface {
+  background-color: #2f303a;
+}
 .button {
   font-weight: 700;
   font-size: 16px;

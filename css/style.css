@@ -70,3 +70,6 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: none;
 }
+.opis {
+  list-style: none;
+}

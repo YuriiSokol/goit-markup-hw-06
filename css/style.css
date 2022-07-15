@@ -112,5 +112,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+}
+.button-portfolio {
   cursor: pointer;
 }

@@ -151,6 +151,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.teamphoto {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
 .name {
   font-weight: 500;
   font-size: 16px;

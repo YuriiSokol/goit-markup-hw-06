@@ -119,26 +119,37 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--dark);
 }
 .describtion {
-  color: #757575;
+  color: var(--grey);
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  padding-top: 10px;
   text-transform: none;
 }
 .opis {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+}
+.opis3 {
+  font-size: 36px;
+  line-height: 1, 17;
+  padding-bottom: 50px;
+  text-align: center;
 }
 .opis2 {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.jobphoto {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 .name {
   font-weight: 500;

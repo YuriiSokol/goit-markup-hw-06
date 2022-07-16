@@ -196,16 +196,18 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
-
-  display: flex;
+  background: var(--third);
+  border-radius: 4px;
+  margin-left: 8px;
+  border-style: none;
+  padding: 6px 22px;
 }
 .but {
+  list-style: none;
   display: flex;
+  justify-content: center;
 }
 .but button:hover {
   color: #ffffff;
@@ -277,4 +279,13 @@ body {
 }
 .mailtel {
   padding-top: 9px;
+}
+.tlo {
+  padding: 94px;
+}
+.discr-photo {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }

@@ -84,27 +84,34 @@ body {
   background-color: var(--second);
   text-align: center;
 }
-h1 {
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+.tittle {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+  border-radius: 0px;
+  margin-bottom: 30px;
+  padding-top: 104px;
 }
 .button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.85;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  border: radius 4px;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--blue);
   cursor: pointer;
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 42px;
+  padding-right: 41px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 114px;
+  border: none;
 }
 .paragraph {
   font-weight: 700;

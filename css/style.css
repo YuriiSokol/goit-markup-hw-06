@@ -289,3 +289,8 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+.img {
+  display: flex;
+  margin-top: 56px;
+  background: var(--white);
+}

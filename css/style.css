@@ -77,7 +77,7 @@ body {
   color: var(--blue);
 }
 .studio {
-  color: black;
+  color: var(--black);
 }
 .logo {
   padding: 94px;

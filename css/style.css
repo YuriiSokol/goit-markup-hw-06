@@ -162,3 +162,6 @@ h1 {
 
   color: #212121;
 }
+.borderbottom {
+  border-bottom: 1px solid #ececec;
+}

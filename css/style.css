@@ -114,7 +114,7 @@ h1 {
   background-color: #f5f4fa;
   display: flex;
 }
-.but.clickbutton:hover {
+.but.button:hover {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;

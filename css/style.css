@@ -160,9 +160,14 @@ h1 {
 .adr {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+}
+.adr a {
+  font-weight: 500;
+  color: var(--grey);
+  text-decoration: none;
+  font-size: 14px;
 }
 .clickbutton {
   font-weight: 500;
@@ -240,4 +245,13 @@ h1 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-top: 47px;
+}
+.footer-adres {
+  list-style: none;
+}
+.ouradres {
+  padding-top: 20px;
+}
+.mailtel {
+  padding-top: 9px;
 }

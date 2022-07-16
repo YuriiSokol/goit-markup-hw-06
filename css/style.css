@@ -234,7 +234,7 @@ body {
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
-  text-align: center;
+  text-align: left;
   color: #212121;
   border-left: 1px solid var(--fourth);
   border-right: 1px solid var(--fourth);

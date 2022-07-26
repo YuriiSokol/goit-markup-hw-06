@@ -80,7 +80,11 @@ body {
   color: var(--black);
 }
 .logo {
-  background-image: url(../images/people.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/people.jpg);
   padding: 94px;
   background-color: var(--second);
   text-align: center;

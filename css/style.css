@@ -88,6 +88,8 @@ body {
   padding: 94px;
   background-color: var(--second);
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .tittle {
   font-weight: 900;

@@ -319,3 +319,20 @@ body {
   line-height: 2;
   color: var(--dark);
 }
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.smartphone {
+  padding-right: 10px;
+  fill: var(--grey);
+  width: 20px;
+  height: 16px;
+}
+.ico {
+  display: flex;
+  position: absolute;
+  background-color: #2196f3;
+  border: dotted #000000;
+}

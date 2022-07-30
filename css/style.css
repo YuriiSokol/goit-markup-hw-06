@@ -319,3 +319,13 @@ body {
   line-height: 2;
   color: var(--dark);
 }
+.ico {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.icon {
+  border: 2, dotted, black;
+  border-radius: 10px;
+  fill: #000000;
+}

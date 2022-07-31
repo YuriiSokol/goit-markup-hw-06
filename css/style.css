@@ -342,17 +342,7 @@ body {
   width: 20px;
   height: 16px;
 }
-/* .svgcontainer {
-  background-color: #2196f3;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-.icon {
-  border: 2, dotted, black;
-  border-radius: 10px;
-  fill: #000000;
-} */
+
 .icons {
   display: flex;
   justify-content: center;

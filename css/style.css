@@ -59,7 +59,8 @@ body {
   letter-spacing: 0.03em;
   list-style: none;
   display: flex;
-  padding-left: 275px;
+  margin-left: auto;
+  align-items: center;
 }
 .adrlista a {
   font-weight: 500;
@@ -319,7 +320,19 @@ body {
   line-height: 2;
   color: var(--dark);
 }
-.svgcontainer {
+.email {
+  width: 26px;
+  height: 12px;
+  padding-right: 10px;
+  fill: var(--grey);
+}
+.smartphone {
+  padding-right: 10px;
+  fill: var(--grey);
+  width: 20px;
+  height: 16px;
+}
+/* .svgcontainer {
   background-color: #2196f3;
   display: flex;
   justify-content: center;
@@ -329,4 +342,4 @@ body {
   border: 2, dotted, black;
   border-radius: 10px;
   fill: #000000;
-}
+} */

@@ -153,6 +153,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 .jobphoto {
   list-style: none;
@@ -343,3 +344,85 @@ body {
   border-radius: 10px;
   fill: #000000;
 } */
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social-icons {
+  list-style: none;
+  display: flex;
+  margin-left: 32px;
+  margin-bottom: 30px;
+  gap: 10px;
+  fill: var(--social);
+}
+
+.company-icon {
+  list-style: none;
+  display: flex;
+  fill: var(--social);
+  gap: 30px;
+}
+
+.customers {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.last-customers {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.customers:hover,
+.customers:focus {
+  fill: var(--blue);
+  border-color: var(--blue);
+  cursor: pointer;
+}
+
+.invite {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding-bottom: 20px;
+  margin-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+}
+.socialmedia {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  fill: var(--white);
+  padding-left: 70px;
+}
+.socialmedia-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  display: block;
+  background: var(--socialmedia);
+}
+.socialmedia-link:hover,
+.socialmedia-link:focus {
+  fill: var(--white);
+  background: var(--blue);
+}
+.footsocial {
+  display: flex;
+}

@@ -317,6 +317,12 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+.discr-photo .img {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  background: var(--white);
+}
 .img {
   display: flex;
   margin-top: 56px;
@@ -326,6 +332,33 @@ body {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.168), 0px 4px 4px rgba(0, 0, 0, 0.07),
     1px 4px 6px rgba(0, 0, 0, 0.19);
+  transition-duration: 2250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.img:hover .overlay {
+  transform: translatey(0);
+}
+.overlay {
+  background: var(--blue);
+  position: absolute;
+  padding: 49px 45px 49px 24px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-bottom: 110px;
+  transform: translatey(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay:hover {
+  transform: translateX(0);
+}
+.newtext {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  width: 301px;
 }
 .img-name {
   letter-spacing: 0.03em;

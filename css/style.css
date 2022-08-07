@@ -445,3 +445,12 @@ body {
   width: 100%;
   left: 0;
 }
+.lista a:hover,
+.lista a:focus,
+.adrlista a:hover,
+.adrlista a:focus,
+.adrlista a:focus svg,
+.adrlista a:hover svg {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

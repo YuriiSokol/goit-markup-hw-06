@@ -217,14 +217,18 @@ body {
   border-style: none;
   padding: 6px 22px;
 }
+
 .but {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-.but button:hover {
+.clickbutton:hover,
+.clickbutton:focus {
   color: #ffffff;
   background-color: #2196f3;
+  transition-duration: 2250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   cursor: pointer;
 }
@@ -387,6 +391,8 @@ body {
   fill: var(--blue);
   border-color: var(--blue);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .invite {
@@ -421,6 +427,8 @@ body {
 .socialmedia-link:focus {
   fill: var(--white);
   background: var(--blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footsocial {
   display: flex;

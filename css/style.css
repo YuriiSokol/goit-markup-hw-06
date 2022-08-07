@@ -525,7 +525,7 @@ body {
   height: 1024px;
   left: 0px;
   top: 0px;
-  transition: opacity 250ms linear, visibility 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear scale(1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -541,11 +541,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.backdrop {
-  transition: opacity 250ms linear;
-  transform: scale(1);
-  height: 100%;
-}
+
 .close-button {
   position: absolute;
   width: 11px;
@@ -568,12 +564,12 @@ body {
   border: 1px solid var(--blue);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  transition: 3250ms;
+  transition: 250ms;
 }
 
 .modal-button:hover svg {
   fill: var(--blue);
-  transition: 3250ms;
+  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {

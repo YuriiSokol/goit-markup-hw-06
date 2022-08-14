@@ -257,6 +257,7 @@ body {
   border-right: 1px solid var(--fourth);
   border-bottom: 1px solid var(--fourth);
   padding: 20px 24px;
+  position: relative;
 }
 .about {
   color: var(--grey);
@@ -371,7 +372,7 @@ body {
   margin-bottom: 110px;
   transform: translatey(100%);
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 0, 5);
 }
 .overlay:hover {
   transform: translateX(0);

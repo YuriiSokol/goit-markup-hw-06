@@ -624,14 +624,21 @@ body {
   pointer-events: none;
 }
 .modal-heder {
+  position: absolute;
+  width: 448px;
+  height: 23px;
+  left: 576px;
+  top: 261px;
+
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--dark);
-  padding-top: 40px;
-  padding-bottom: 12px;
+
+  color: #212121;
 }
 .name-input {
   font-size: 12px;

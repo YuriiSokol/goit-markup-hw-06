@@ -245,19 +245,19 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .name2 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
   border-left: 1px solid var(--fourth);
   border-right: 1px solid var(--fourth);
   border-bottom: 1px solid var(--fourth);
   padding: 20px 24px;
   position: relative;
+  background-color: var(--white);
+}
+.img-name {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--dark);
 }
 .about {
   color: var(--grey);
@@ -351,6 +351,7 @@ body {
   display: flex;
   margin-top: 56px;
   background: var(--white);
+  position: absolute;
 }
 .img:hover {
   cursor: pointer;
@@ -384,13 +385,7 @@ body {
   color: var(--white);
   width: 301px;
 }
-.img-name {
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  color: var(--dark);
-}
+
 .email {
   width: 26px;
   height: 12px;

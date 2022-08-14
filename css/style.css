@@ -623,4 +623,43 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+.modal-heder {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark);
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+.name-input {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--grey);
+  padding-bottom: 4px;
+  position: relative;
+}
+.place-input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.comment-input {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 16px 12px;
+}
+.text-area {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--modal);
+}
 /* ======================== End modal ======================= */

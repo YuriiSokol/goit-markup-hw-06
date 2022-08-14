@@ -22,6 +22,49 @@ body {
   font-size: 16px;
   font-family: "Roboto", "Raleway", sans-serif;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.lista a:hover,
+.lista a:focus,
+.adrlista a:hover,
+.adrlista a:focus,
+.adrlista a:focus svg,
+.adrlista a:hover svg {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* ==================================== start Section navigate ==================================== */
+.borderbottom {
+  border-bottom: 1px solid #ececec;
+}
+.headerpage {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  justify-content: left;
+}
+
+.webstudio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--blue);
+}
+.studio {
+  color: var(--black);
+}
 .lista a {
   font-weight: 500;
   color: #212121;
@@ -72,6 +115,18 @@ body {
   text-decoration: none;
   font-size: 14px;
 }
+.email {
+  width: 26px;
+  height: 12px;
+  padding-right: 10px;
+  fill: var(--grey);
+}
+.smartphone {
+  padding-right: 10px;
+  fill: var(--grey);
+  width: 20px;
+  height: 16px;
+}
 .webstudio {
   font-family: "Raleway";
   font-weight: 700;
@@ -81,9 +136,24 @@ body {
   text-decoration: none;
   color: var(--blue);
 }
-.studio {
-  color: var(--black);
+.bottomline {
+  position: relative;
 }
+.bottomline::after {
+  content: "";
+  height: 4px;
+  background: var(--blue);
+  border-radius: 2px;
+  position: absolute;
+  bottom: -31px;
+  text-transform: uppercase;
+  width: 100%;
+  left: 0;
+}
+
+/* ==================================== end Section navigate ====================================  */
+
+/* =======================================Start web logo=============================== */
 .logo {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -125,6 +195,21 @@ body {
   margin-bottom: 114px;
   border: none;
 }
+
+/* ========================================End Web logo ========================================================= */
+
+/* ===========================================Start Section under logo ========================================= */
+
+.opis {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 .paragraph {
   font-weight: 700;
   font-size: 14px;
@@ -141,157 +226,20 @@ body {
   padding-top: 10px;
   text-transform: none;
 }
-.opis {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-}
+
+/* ===========================================End Section under logo ========================================= */
+
+/* ==========================================Start section What we do =========================== */
 .opis3 {
   font-size: 36px;
   line-height: 1, 17;
   padding-bottom: 50px;
   text-align: center;
 }
-.opis2 {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding-bottom: 50px;
-}
 .jobphoto {
   list-style: none;
   display: flex;
   justify-content: space-between;
-}
-.teamphoto {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-.name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding-top: 30px;
-}
-.workplace {
-  color: var(--grey);
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-transform: none;
-  text-align: center;
-  padding-bottom: 30px;
-}
-.foot {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  padding: 60px;
-  background: var(--second);
-}
-.adr {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.adr a {
-  font-weight: 500;
-  color: var(--grey);
-  text-decoration: none;
-  font-size: 14px;
-}
-.clickbutton {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--third);
-  border-radius: 4px;
-  margin-left: 8px;
-  border-style: none;
-  padding: 6px 22px;
-}
-
-.but {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-.clickbutton:hover,
-.clickbutton:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  transition-duration: 2250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  cursor: pointer;
-}
-.lista-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-.name2 {
-  border-left: 1px solid var(--fourth);
-  border-right: 1px solid var(--fourth);
-  border-bottom: 1px solid var(--fourth);
-  padding: 20px 24px;
-  position: relative;
-  background-color: var(--white);
-}
-.img-name {
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  color: var(--dark);
-}
-.about {
-  color: var(--grey);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  padding-top: 8px;
-}
-.borderbottom {
-  border-bottom: 1px solid #ececec;
-}
-.headerpage {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  justify-content: left;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/*(under logo) chage for section ... .section-text {
-  padding-top: 94px;
-} */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.section-team {
-  padding: 94px;
-  background: var(--third);
 }
 .dicription-text {
   position: relative;
@@ -315,7 +263,21 @@ body {
   color: var(--white);
   padding: 27px;
 }
+/* ==========================================End section What we do =========================== */
 
+/* ==========================================Start section Our Team =========================== */
+.opis2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+.teamphoto {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
 .photo {
   background: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -323,87 +285,31 @@ body {
   border-radius: 0px 0px 4px 4px;
   margin-top: 47px;
 }
-.footer-adres {
-  list-style: none;
-}
-.ouradres {
-  padding-top: 20px;
-}
-.mailtel {
-  padding-top: 9px;
-}
-.tlo {
-  padding: 94px;
-}
-.discr-photo {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.discr-photo .img {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  background: var(--white);
-}
-.img {
-  display: flex;
-  margin-top: 56px;
-  background: var(--white);
-  position: absolute;
-}
-.img:hover {
-  cursor: pointer;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.168), 0px 4px 4px rgba(0, 0, 0, 0.07),
-    1px 4px 6px rgba(0, 0, 0, 0.19);
-  transition-duration: 2250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.img:hover .overlay {
-  transform: translatey(0);
-}
-.overlay {
-  background: var(--blue);
-  position: absolute;
-  padding: 49px 45px 49px 24px;
-  top: 0;
-  left: 0;
-  height: 100%;
-  margin-bottom: 110px;
-  transform: translatey(100%);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay:hover {
-  transform: translateX(0);
-}
-.newtext {
-  font-size: 18px;
-  line-height: 1.55;
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--white);
-  width: 301px;
+  text-align: center;
+  padding-top: 30px;
 }
+.workplace {
+  color: var(--grey);
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-team {
+  padding: 94px;
+  background: var(--third);
+}
+/* ==========================================End section Our Team =========================== */
 
-.email {
-  width: 26px;
-  height: 12px;
-  padding-right: 10px;
-  fill: var(--grey);
-}
-.smartphone {
-  padding-right: 10px;
-  fill: var(--grey);
-  width: 20px;
-  height: 16px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
+/* ===================================== Social Icons =========================== */
 .social-icons {
   list-style: none;
   display: flex;
@@ -412,14 +318,39 @@ body {
   gap: 10px;
   fill: var(--social);
 }
+.socialmedia {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  fill: var(--white);
+  padding-left: 70px;
+}
+.socialmedia-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  display: block;
+  background: var(--socialmedia);
+}
+.socialmedia-link:hover,
+.socialmedia-link:focus {
+  fill: var(--white);
+  background: var(--blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+/* ===================================== End Social Icons =========================== */
+
+/* ======================================== Regular Customers ================================ */
 .company-icon {
   list-style: none;
   display: flex;
   fill: var(--social);
   gap: 30px;
 }
-
 .customers {
   width: 170px;
   height: 92px;
@@ -447,6 +378,36 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ======================================== End Regular Customers ================================ */
+
+/* ========================================== Footer ============================== */
+.foot {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 60px;
+  background: var(--second);
+}
+.adr {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adr a {
+  font-weight: 500;
+  color: var(--grey);
+  text-decoration: none;
+  font-size: 14px;
+}
+.mailtel {
+  padding-top: 9px;
+}
+.footer-adres {
+  list-style: none;
+}
+.ouradres {
+  padding-top: 20px;
+}
 .invite {
   font-weight: 700;
   font-size: 14px;
@@ -459,60 +420,17 @@ body {
   padding-bottom: 20px;
   padding-left: 70px;
 }
-.socialmedia {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  fill: var(--white);
-  padding-left: 70px;
-}
-.socialmedia-link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  padding: 12px;
-  display: block;
-  background: var(--socialmedia);
-}
-.socialmedia-link:hover,
-.socialmedia-link:focus {
-  fill: var(--white);
-  background: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footsocial {
-  display: flex;
-}
-.clickbutton:hover,
-.clickbutton:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+.lista-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-.bottomline {
-  position: relative;
-}
-.bottomline::after {
-  content: "";
-  height: 4px;
-  background: var(--blue);
-  border-radius: 2px;
-  position: absolute;
-  bottom: -31px;
-  text-transform: uppercase;
-  width: 100%;
-  left: 0;
-}
-.lista a:hover,
-.lista a:focus,
-.adrlista a:hover,
-.adrlista a:focus,
-.adrlista a:focus svg,
-.adrlista a:hover svg {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .invitation {
   font-weight: 700;
@@ -564,7 +482,126 @@ body {
   position: absolute;
   margin-bottom: 104px;
 }
-/* ======================Modal============== */
+.footsocial {
+  display: flex;
+}
+/* ========================================== End Footer ============================== */
+
+/* =====================================================
+=====================  PORTFOLIO =======================
+===================================================== */
+
+/* ===================================== Button List ======================== */
+.tlo {
+  padding: 94px;
+}
+.clickbutton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--third);
+  border-radius: 4px;
+  margin-left: 8px;
+  border-style: none;
+  padding: 6px 22px;
+}
+.but {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.clickbutton:hover,
+.clickbutton:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  transition-duration: 2250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+/* ===================================== End Button List ======================== */
+
+/* ======================================== Portfolio Cards =============================== */
+.name2 {
+  border-left: 1px solid var(--fourth);
+  border-right: 1px solid var(--fourth);
+  border-bottom: 1px solid var(--fourth);
+  padding: 20px 24px;
+  position: relative;
+  background-color: var(--white);
+}
+.img-name {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--dark);
+}
+.about {
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  padding-top: 8px;
+}
+
+.discr-photo {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.discr-photo .img {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  background: var(--white);
+}
+.img {
+  display: flex;
+  margin-top: 56px;
+  background: var(--white);
+  position: absolute;
+}
+.img:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.168), 0px 4px 4px rgba(0, 0, 0, 0.07),
+    1px 4px 6px rgba(0, 0, 0, 0.19);
+  transition-duration: 2250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.img:hover .overlay {
+  transform: translatey(0);
+}
+.overlay {
+  background: var(--blue);
+  position: absolute;
+  padding: 49px 45px 49px 24px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-bottom: 110px;
+  transform: translatey(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay:hover {
+  transform: translateX(0);
+}
+.newtext {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  width: 301px;
+}
+
+/* ======================================== End Portfolio Cards =============================== */
+
+/* =========================== Modal ========================== */
 .backdrop {
   position: fixed;
   width: 100%;
@@ -579,7 +616,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 581px;
+  width: 528px;
   padding: 40px;
   transform: translate(-50%, -50%);
   background-color: var(--white);
@@ -743,6 +780,10 @@ input {
   left: -2px;
 }
 .checkbox-text {
+  width: 400.62px;
+  height: 24px;
+  left: 612.38px;
+  top: 658px;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -765,9 +806,12 @@ input {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  border: none;
+  margin: 0px 124px 0px;
   width: 200px;
   height: 50px;
-  border: none;
-  margin: 30px 124px 40px;
+  left: 700px;
+  top: 712px;
 }
 /* ======================== End modal ======================= */

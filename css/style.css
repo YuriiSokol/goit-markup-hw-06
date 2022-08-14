@@ -580,7 +580,7 @@ body {
   top: 50%;
   left: 50%;
   width: 528px;
-  min-height: 581px;
+  padding: 40px;
   transform: translate(-50%, -50%);
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -661,5 +661,106 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--modal);
+}
+.icon-people {
+  color: var(--black);
+  position: absolute;
+  left: 15px;
+  top: 28px;
+}
+.icon-telephone {
+  color: var(--black);
+  position: absolute;
+  left: 14.27px;
+  top: 30.23px;
+}
+.icon-envelope {
+  color: var(--black);
+  position: absolute;
+  left: 13.5px;
+  top: 29px;
+}
+input:focus + .icon-people,
+input:focus + .icon-telephone,
+input:focus + .icon-envelope,
+textarea,
+input {
+  fill: var(--blue);
+  outline-color: var(--blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rules-policy {
+  color: var(--blue);
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+.checkbox-window {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox-window input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  top: 4px;
+  left: 14px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: var(--white);
+  border: 2px solid black;
+  position: absolute;
+  width: 15px;
+  height: 16px;
+}
+.checkbox-icon {
+  height: 16px;
+  width: 15px;
+  visibility: hidden;
+  fill: var(--white);
+}
+.checkbox-window input:checked ~ .checkmark .checkbox-icon {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 2px;
+  visibility: visible;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+.checkbox-text {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+  margin-left: 38px;
+  cursor: default;
+}
+.modal-checkbox-link {
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.button-form {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin: 30px 124px 40px;
 }
 /* ======================== End modal ======================= */

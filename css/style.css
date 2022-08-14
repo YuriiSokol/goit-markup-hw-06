@@ -372,7 +372,7 @@ body {
   margin-bottom: 110px;
   transform: translatey(100%);
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 0, 5);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay:hover {
   transform: translateX(0);

@@ -685,6 +685,12 @@ body {
   border-radius: 4px;
   padding-left: 42px;
 }
+.place-input:valid {
+  color: green;
+}
+.place-input:invalid {
+  color: red;
+}
 .comment-input {
   width: 100%;
   height: 120px;
